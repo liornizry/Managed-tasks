@@ -1,7 +1,7 @@
 -- Insert demo users (סיסמה: 123456 להדגמה בלבד)
 -- המנהל הראשי
 INSERT OR IGNORE INTO users (id, username, password, name, role, manager_id) VALUES 
-  (1, 'admin', '123456', 'ליאור נזרי', 'manager', NULL);
+    (1, 'ADMIN', 'ADMIN', 'יאיר ניזרי', 'manager', NULL);
 
 -- תתי המנהלים (תחת המנהל הראשי)
 INSERT OR IGNORE INTO users (id, username, password, name, role, manager_id) VALUES 
