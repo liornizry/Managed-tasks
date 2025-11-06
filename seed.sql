@@ -1,13 +1,14 @@
 -- Insert demo users (סיסמה: 123456 להדגמה בלבד)
 -- המנהל הראשי
 INSERT OR IGNORE INTO users (id, username, password, name, role, manager_id) VALUES 
-  (1, 'manager', '123456', 'דוד מנהל', 'manager', NULL);
+  (1, 'admin', '123456', 'ליאור נזרי', 'manager', NULL);
 
 -- תתי המנהלים (תחת המנהל הראשי)
 INSERT OR IGNORE INTO users (id, username, password, name, role, manager_id) VALUES 
-  (2, 'sub1', '123456', 'יוסי כהן', 'sub_manager', 1),
-  (3, 'sub2', '123456', 'רחל לוי', 'sub_manager', 1),
-  (4, 'sub3', '123456', 'משה אברהם', 'sub_manager', 1);
+  (2, 'A1', '123456', 'שקד קדושים', 'sub_manager', 1),
+  (3, 'A2', '123456', 'אושר חכם', 'sub_manager', 1),
+  (4, 'A3', '123456', 'נדב פורת', 'sub_manager', 1);
+  (5, 'A4', '123456', 'דניאל', 'sub_manager', 1);
 
 -- Insert demo tasks
 INSERT OR IGNORE INTO tasks (title, description, status, priority, assigned_to, created_by, due_date) VALUES 
