@@ -221,13 +221,7 @@ function LoginView() {
           </button>
         </form>
         
-        <div class="mt-6 p-4 bg-gray-100 rounded-lg">
-          <p class="text-sm font-bold text-gray-700 mb-2">משתמשי דמו:</p>
-          <p class="text-xs text-gray-600">מנהל: manager / 123456</p>
-          <p class="text-xs text-gray-600">תת-מנהל 1: sub1 / 123456</p>
-          <p class="text-xs text-gray-600">תת-מנהל 2: sub2 / 123456</p>
-          <p class="text-xs text-gray-600">תת-מנהל 3: sub3 / 123456</p>
-        </div>
+
       </div>
     </div>
   `;
